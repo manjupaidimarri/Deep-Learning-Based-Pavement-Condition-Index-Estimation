@@ -1,4 +1,4 @@
-<h1 align="center">Deep Learning-Based Pavement Distress Detection & PCI Estimation</h1>
+  <h1 align="center">Deep Learning-Based Pavement Distress Detection & PCI Estimation</h1>
 
 <p align="center">
   <strong>Automated Road Condition Assessment Using YOLOv8m and IRC:82:2023 Guidelines</strong>
@@ -153,7 +153,8 @@ Deep-Learning-Based-Pavement-Condition-Index-Estimation/
 │   ├── website Road AI/        # Frontend web interface for RoadAI
 │   ├── code.ipynb              # YOLOv8m training and evaluation notebook
 │   └── pci_estimation.py       # Geometric distress quantification & IRC:82:2023 PCI script
-├── models/                     # Trained YOLOv8m model weights
+├── models/
+│   └── README.md               # Details on trained YOLOv8m model weights
 ├── .gitignore
 ├── README.md
 ├── requirements.txt            # Python dependencies
