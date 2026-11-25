@@ -154,7 +154,7 @@ Deep-Learning-Based-Pavement-Condition-Index-Estimation/
 │   ├── code.ipynb              # YOLOv8m training and evaluation notebook
 │   └── pci_estimation.py       # Geometric distress quantification & IRC:82:2023 PCI script
 ├── models/
-│   └── README.md               # Details on trained YOLOv8m model weights
+│   └── README.md               # weights available on request
 ├── .gitignore
 ├── README.md
 ├── requirements.txt            # Python dependencies
