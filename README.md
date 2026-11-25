@@ -275,8 +275,6 @@ This project was developed through a collaborative effort between the Department
 |--------|------------|
 | **P. Sri Vinya Manju Bhargavi** | Civil Engineering |
 | **Manoj Kumar Sunkara** | Artificial Intelligence & Machine Learning |
-| **Kotla Geethika** | Artificial Intelligence & Machine Learning |
-| **Anadhyanth Bapanapalli** | Artificial Intelligence & Machine Learning |
 
 ### Contributions
 
