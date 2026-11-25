@@ -162,7 +162,27 @@ Deep-Learning-Based-Pavement-Condition-Index-Estimation/
 ```
 
 ---
+## How to Run (PCI Estimation)
 
+1. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+2. Place your YOLOv8 detection `.txt` label files inside a `./labels` folder.
+3. Run the IRC:82:2023 PCI estimation script and follow the interactive prompts (road category, length per image, and lane width):
+   ```bash
+   python codes/pci_estimation.py
+   ```
+
+---
+
+## Future Work
+
+- **Dashcam Video-Based Assessment:** Extending frame-level detection to continuous dashcam video streams with larger, more balanced datasets to improve recall on under-represented classes (e.g., repaired cracks).
+- **Crash-Risk Linkage:** Integrating automated PCI scores with historical crash data to model road-condition crash risk and prioritize resurfacing interventions.
+- **Deployment:** Deploying the RoadAI prototype for municipal and highway agency field use.
+
+---
 ## Project Team
 
 Developed at **Chaitanya Bharathi Institute of Technology (Autonomous), Hyderabad** through an interdisciplinary collaboration between the Departments of Civil Engineering and Artificial Intelligence & Machine Learning.
@@ -207,7 +227,12 @@ Chaitanya Bharathi Institute of Technology (A), Hyderabad
 - **First Position (Best Project)** among all major projects in the Department of Civil Engineering, CBIT (Batch 2022–2026), awarded after external examiner evaluation.
 
 ---
+## Contact
 
+**Paidimarri Sri Vinya Manju Bhargavi**  
+Email: manjubhargavipaidimarri@gmail.com | LinkedIn: [linkedin.com/in/manju-paidimarri](https://www.linkedin.com/in/manju-paidimarri)
+
+---
 ## License
 
 This repository is intended for academic and research purposes.  
