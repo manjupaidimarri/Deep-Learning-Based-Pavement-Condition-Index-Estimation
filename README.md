@@ -89,6 +89,7 @@ Detected bounding boxes are converted into measurable engineering quantities ove
 Individual PCI components (PCI<sub>Cracking</sub>, PCI<sub>Pothole</sub>, PCI<sub>Rutting</sub>, PCI<sub>Patch</sub>) are computed using IRC:82:2023 empirical relationships for the selected road category (Highway, MDR/Rural, or Urban), and combined into an overall weighted PCI:
 
 **Overall PCI = 0.24 × PCI<sub>Cracking</sub> + 0.32 × PCI<sub>Pothole</sub> + 0.28 × PCI<sub>Rutting</sub> + 0.16 × PCI<sub>Patch</sub>**
+
 ---
 
 ## Validation Performance (YOLOv8m)
