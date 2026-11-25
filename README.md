@@ -128,10 +128,15 @@ The system computes Pavement Condition Index (PCI) using IRC:82:2023 guidelines.
 
 PCI assessment includes:
 
-* Distress density estimation
-* Deduct value computation
-* Corrected deduct value calculation
-* Final pavement condition rating
+1. Compute Density of each Distress
+
+2. Obtain Crack Extent, Pothole Number, Patch Extent and Rut Depth
+
+3. Compute PCI_Cracking, PCI_Pothole, PCI_Patch and PCI_Rut as per IRC 82:2023 Guidelines
+
+4. Obtain Overall PCI value
+
+5. Overall PCI = 0.24 PCI_Cracking + 0.32 PCI_Pothole + 0.28 PCI_Rutting + 0.16 PCI_Patch
 
 ---
 
